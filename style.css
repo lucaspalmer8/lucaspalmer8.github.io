@@ -1,7 +1,7 @@
 body {
     background-image: url("sunset.jpg");
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;*/
 	background-attachment: fixed;	
 	background-size: cover;
-	background-position: center; 
+	/*background-position: center;*/
 } 
