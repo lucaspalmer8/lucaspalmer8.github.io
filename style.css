@@ -3,3 +3,6 @@ body {
     background-repeat: no-repeat;
 	background-size: cover;
 }
+body {
+    background: #00ff00 url("sunset.jpg") no-repeat fixed center;
+} 
