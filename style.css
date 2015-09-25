@@ -5,4 +5,5 @@ body {
 }
 body {
     background: #00ff00 url("sunset.jpg") no-repeat fixed center;
+	background-size: cover;
 } 
