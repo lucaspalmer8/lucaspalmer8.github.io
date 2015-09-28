@@ -29,6 +29,7 @@ body {
 #name-header h1 {
 	color: white;
 	position: relative;
+	width: auto;
 	left: 270px;
 	top: 200px;
 }
