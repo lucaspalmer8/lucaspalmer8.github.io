@@ -7,9 +7,12 @@ body {
 	/*background-position: center;*/
 }
 
-img {
-    height: 200px;
-    width: 150px;
+#profile-picture {
+    height: 250px;
+    width: 200px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
 }
 
 #name-header {
