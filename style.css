@@ -21,5 +21,6 @@ body {
 	height: 300px;
 	margin: auto;
 	background-position: center center;
-	/*background-size: cover;*/
+	background-color: black;
+	background-size: 900px 300px;
 } 
