@@ -28,6 +28,13 @@ body {
 
 #name-header h1 {
 	font-color: white;
-	margin-top: 3em;
-	margin-left: 4em;
+	position: absolute;
+	left: 270px;
+	top: 200px;
+}
+
+#name-header img {
+	position: absolute;
+	top: 10px;
+	left: 10px;
 }
