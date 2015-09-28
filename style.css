@@ -1,5 +1,5 @@
 body {
-	background-color: rgb(200,210,255);
+	background-color: rgb(243,250,250);
     /*background-image: url("sunset.jpg");*/
     /*background-repeat: no-repeat;*/
 	/*background-attachment: fixed;	
@@ -9,7 +9,9 @@ body {
 
 #profile-picture {
     height: 250px;
-    width: 200px;
+    width: 250px;
+	margin-top: 5em;
+	float: left;
 	border-style: solid;
 	border-width: 5px;
 	border-color: white;
@@ -23,3 +25,9 @@ body {
 	background-position: center center;
 	background-size: 900px 450px;
 } 
+
+#name-header h1 {
+	font-color: white;
+	margin-top: 25em;
+	margin-left: 4em;
+}
