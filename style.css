@@ -20,6 +20,6 @@ body {
 	width: 900px;
 	height: 300px;
 	margin: auto;
-	/*background-position: center;*/
-	background-size: cover;
+	background-position: center center;
+	/*background-size: cover;*/
 } 
