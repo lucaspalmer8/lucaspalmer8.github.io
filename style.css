@@ -1,5 +1,5 @@
 body {
-	background-color: rgb(255,255,253);
+	background-color: rgb(255,255,153);
     /*background-image: url("sunset.jpg");*/
     /*background-repeat: no-repeat;*/
 	/*background-attachment: fixed;	
@@ -16,5 +16,7 @@ img {
 	background-image: url("sunset.jpg");
 	width: 70%;
 	height: 300px;
+	margin: auto;
 	background-position: center;
+	background-size: cover;
 } 
