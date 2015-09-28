@@ -1,8 +1,9 @@
 body {
-    background-image: url("sunset.jpg");
+	background-color: blue;
+    /*background-image: url("sunset.jpg");*/
     /*background-repeat: no-repeat;*/
-	background-attachment: fixed;	
-	background-size: cover;
+	/*background-attachment: fixed;	
+	background-size: cover;*/
 	/*background-position: center;*/
 }
 
