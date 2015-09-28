@@ -27,14 +27,14 @@ body {
 } 
 
 #name-header h1 {
-	font-color: white;
-	position: absolute;
+	color: white;
+	position: relative;
 	left: 270px;
 	top: 200px;
 }
 
 #name-header img {
-	position: absolute;
+	position: relative;
 	top: 10px;
 	left: 10px;
 }
