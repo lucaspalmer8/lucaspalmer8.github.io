@@ -21,7 +21,7 @@ body {
 	background-image: url("sunset.jpg");
 	width: 900px;
 	height: 300px;
-	/*margin: 0 auto;*/
+	margin: auto;
 	background-position: center center;
 	background-size: 900px 450px;
 } 
