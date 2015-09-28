@@ -10,4 +10,11 @@ body {
 img {
     height: 200px;
     width: 150px;
+}
+
+#name-header {
+	background-image: url("sunset.jpg");
+	width: 70%;
+	height: 300px;
+	background-position: center;
 } 
