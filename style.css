@@ -30,3 +30,25 @@ body {
 	left: 350px;
 	top: 250px;
 }
+
+#main-menu {
+	width: 700px;
+	position: relative;
+	left: 200px;
+}
+
+#main-menu li {
+	display: inline-block;
+	border-width: 1px;
+	border-color: black;
+	padding: 2px;
+}
+
+.empty-li {
+}
+
+
+
+
+
+
