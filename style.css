@@ -32,9 +32,8 @@ body {
 }
 
 #main-menu {
-	width: 450px;
-	position: relative;
-	left: 450px;
+	width: 900px;
+	margin: auto;
 }
 
 #main-menu li {
