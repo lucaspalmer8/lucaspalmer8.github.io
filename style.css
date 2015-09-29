@@ -32,19 +32,23 @@ body {
 }
 
 #main-menu {
-	width: 700px;
+	width: 450px;
 	position: relative;
-	left: 200px;
+	left: 450px;
 }
 
 #main-menu li {
+	width: 100px;
+	height: 50px;
 	display: inline-block;
 	border-width: 1px;
 	border-color: black;
 	padding: 2px;
 }
 
-.empty-li {
+#main-menu .empty-li {
+	height: 50px;
+	width: 250px;
 }
 
 
