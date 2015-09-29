@@ -37,18 +37,19 @@ body {
 }
 
 #main-menu li {
+	float: left;
 	width: 100px;
 	height: 50px;
-	display: inline-block;
+	display: block;
 	border-width: 1px;
 	border-color: black;
 	padding: 2px;
 }
-
+/*
 #main-menu .empty-li {
 	height: 50px;
 	width: 250px;
-}
+}*/
 
 
 
