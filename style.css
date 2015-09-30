@@ -5,6 +5,9 @@ body {
 #profile-picture {
     height: 250px;
     width: 250px;
+	position: relative;
+	left: 150px;
+	top: -100px;
 /*	float: left;
 	position: relative;
 	left: 10px;
