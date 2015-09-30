@@ -17,6 +17,8 @@ body {
 #cover-photo {
 	height: 300px;
 	width: 900px;
+	display: block;
+	margin: 0 auto;
 
 /*#header {
 	background-image: url("sunset.jpg");
