@@ -14,7 +14,7 @@ body {
 	border-color: white;
 }
 
-#name-header {
+#header {
 	background-image: url("sunset.jpg");
 	width: 900px;
 	height: 300px;
@@ -23,7 +23,7 @@ body {
 	background-size: 900px 450px;
 } 
 
-#name-header h1 {
+#header h1 {
 	color: white;
 	position: relative;
 	width: 600px;
@@ -31,12 +31,7 @@ body {
 	top: 250px;
 }
 
-#main-menu {
-	width: 900px;
-	margin: auto;
-}
-
-#main-menu li {
+#header li {
 	float: left;
 	width: 100px;
 	height: 50px;
