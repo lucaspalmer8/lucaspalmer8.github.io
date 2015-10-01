@@ -36,15 +36,6 @@ body {
 	top: 250px;
 }
 
-#menu {
-	position: fixed;
-}
-
-#wrapper {
-	margin-top: -22px;
-	margin-bottom: 100px;
-}
-
 ol {
 	padding-left: 98px;
 }
