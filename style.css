@@ -37,7 +37,12 @@ body {
 }
 
 #menu {
-	margin-bottom: -22px;
+	position: fixed;
+}
+
+#wrapper {
+	margin-top: -22px;
+	margin-bottom: 100px;
 }
 
 ol {
@@ -71,4 +76,13 @@ ol {
 
 #menu li.current-page {
 	text-decoration: underline;
+}
+
+#summary {
+	background-color: white;
+	width: 750px;
+	margin: 70px auto 0px auto;
+	padding: 10px;
+	border-style: solid;
+	border-width: 2px;
 }
