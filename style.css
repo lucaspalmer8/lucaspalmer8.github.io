@@ -36,7 +36,8 @@ body {
 	top: 250px;
 }
 
-#menu {
+ol {
+	margin: 0;
 }
 
 #menu li {
@@ -46,7 +47,16 @@ body {
 	border-width: 3px;
 	border-color: black;
 	border-style: solid;
+	border-right-style: none;
 	background-color: rgb(230,230,230);
 	padding: 7px;
 	margin: 0;
+}
+
+#menu li.last-li {
+	border-right-style: solid;
+}
+
+#menu li.current-page {
+	background-color: rgb(220,220,220);
 }
