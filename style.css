@@ -66,5 +66,5 @@ ol {
 }
 
 #menu li.current-page {
-	background-color: rgb(210,210,210);
+	text-decoration: underline;
 }
