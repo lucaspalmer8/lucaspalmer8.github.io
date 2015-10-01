@@ -37,7 +37,7 @@ body {
 }
 
 ol {
-	margin: 0 -20;
+	margin: auto;
 }
 
 #menu li {
@@ -53,6 +53,7 @@ ol {
 	margin: 0;
 }
 
+#menu li.current-page:hover,
 #menu li:hover {
 	background-color: rgb(190,190,190);
 }
