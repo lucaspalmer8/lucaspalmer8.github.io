@@ -37,7 +37,7 @@ body {
 }
 
 ol {
-	margin: 0;
+	margin: 0 -20;
 }
 
 #menu li {
@@ -54,16 +54,14 @@ ol {
 }
 
 #menu li:hover {
-	background-color: rgb(220,220,220);
+	background-color: rgb(210,210,210);
 }
 
 #menu li.last-li {
 	border-right-style: solid;
-	margin-right: -20;
 }
 
 #menu li.first-li {
-	margin-left: -20;
 }
 
 #menu li.current-page {
