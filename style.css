@@ -37,12 +37,11 @@ body {
 }
 
 #menu {
-	margin 0 auto;
+	margin-bottom: -22px;
 }
 
 ol {
-	padding: 0;
-	margin: auto;
+	padding-left: 98px;
 }
 
 #menu li {
