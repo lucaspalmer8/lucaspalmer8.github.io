@@ -41,11 +41,12 @@ body {
 }
 
 #menu li {
-	width: 50px;
+	width: 200px;
 	height: 30px;
 	display: inline-block;
 	border-width: 3px;
 	border-color: black;
 	border-style: solid;
 	padding: 7px;
+	margin: 0;
 }
