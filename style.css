@@ -41,7 +41,7 @@ ol {
 }
 
 #menu li {
-	width: 200px;
+	width: 150px;
 	height: 30px;
 	display: inline-block;
 	border-width: 3px;
@@ -49,12 +49,12 @@ ol {
 	border-style: solid;
 	border-right-style: none;
 	background-color: rgb(230,230,230);
-	padding: 7px;
+	padding: 10px;
 	margin: 0;
 }
 
 #menu li:hover {
-	background-color: rgb(210,210,210);
+	background-color: rgb(190,190,190);
 }
 
 #menu li.last-li {
@@ -65,5 +65,5 @@ ol {
 }
 
 #menu li.current-page {
-	background-color: rgb(220,220,220);
+	background-color: rgb(210,210,210);
 }
