@@ -4,7 +4,7 @@ body {
 
 #page {
 	width: 900px;
-	margin: auto;
+	margin: 0 auto;
 }
 
 #profile-picture {
@@ -37,7 +37,6 @@ body {
 }
 
 #menu {
-	position: fixed;
 }
 
 #menu li {
