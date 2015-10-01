@@ -36,6 +36,10 @@ body {
 	top: 250px;
 }
 
+#menu {
+	margin 0 auto;
+}
+
 ol {
 	padding: 0;
 	margin: auto;
