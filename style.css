@@ -53,8 +53,17 @@ ol {
 	margin: 0;
 }
 
+#menu li:hover {
+	background-color: rgb(220,220,220);
+}
+
 #menu li.last-li {
 	border-right-style: solid;
+	margin-right: -20;
+}
+
+#menu li.first-li {
+	margin-left: -20;
 }
 
 #menu li.current-page {
