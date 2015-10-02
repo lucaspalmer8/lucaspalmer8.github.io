@@ -40,8 +40,7 @@ body {
 #menu li {
 	width: 150px;
 	height: 30px;
-	display: block;
-	float: left;
+	display: inline-block;
 	border-width: 3px;
 	border-color: black;
 	border-style: solid;
