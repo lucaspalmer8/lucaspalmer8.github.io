@@ -20,6 +20,15 @@ body {
 	border-color: white;
 }
 
+#menu {
+	width: 695px;
+	margin: auto;
+}
+
+#menu ol {
+	padding: 0;
+}
+
 #header {
 	background-image: url("sunset.jpg");
 	width: 900px;
