@@ -5,6 +5,7 @@ body {
 #page {
 	width: 900px;
 	margin: 0 auto;
+	background-color: rgb(243,250,250);
 }
 
 #profile-picture {
@@ -36,14 +37,11 @@ body {
 	top: 250px;
 }
 
-ol {
-	padding-left: 98px;
-}
-
 #menu li {
 	width: 150px;
 	height: 30px;
-	display: inline-block;
+	display: block;
+	float: left;
 	border-width: 3px;
 	border-color: black;
 	border-style: solid;
