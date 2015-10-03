@@ -5,7 +5,7 @@ body {
 #page {
 	width: 900px;
 	margin: 0 auto;
-	margin-top: 110px;
+	margin-top: 77px;
 	background-color: white;
 }
 
@@ -27,7 +27,7 @@ body {
 }
 
 #menu {
-	width: 695px;
+	z-index: 10;
 	position: fixed;
 	top: -16px;
 }
