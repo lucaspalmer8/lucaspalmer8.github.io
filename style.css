@@ -5,6 +5,7 @@ body {
 #page {
 	width: 900px;
 	margin: 0 auto;
+	margin-top: 110px;
 	background-color: white;
 }
 
@@ -21,14 +22,14 @@ body {
 }
 
 #menu-wrapper {
-		
+	width: 695px;
+	margin: auto;
 }
 
 #menu {
 	width: 695px;
-	margin: auto;
 	position: fixed;
-	top: 0;
+	top: -16px;
 }
 
 #menu ol {
