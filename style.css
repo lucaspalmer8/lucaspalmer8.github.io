@@ -21,19 +21,19 @@ body {
 	border-color: white;
 }
 
-#menu-wrapper {
+.menu-wrapper {
 	width: 695px;
 	margin: auto;
 }
 
-#menu {
+.menu {
 	z-index: 10;
 	width: 695px;
 	position: fixed;
 	top: -16px;
 }
 
-#menu ol {
+.menu ol {
 	padding: 0;
 }
 
@@ -55,7 +55,7 @@ body {
 	top: 250px;
 }
 
-#menu a {
+.menu a {
 	width: 150px;
 	height: 30px;
 	display: inline-block;
