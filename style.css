@@ -55,10 +55,18 @@ body {
 	top: 250px;
 }
 
+.menu li {
+	display: inline-block;
+}
+
+a {
+	
+}
+
 .menu a {
 	width: 150px;
 	height: 30px;
-	display: inline-block;
+	display: block;
 	border-width: 3px;
 	border-color: black;
 	border-style: solid;
@@ -66,21 +74,25 @@ body {
 	background-color: rgb(230,230,230);
 	padding: 10px;
 	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+	color: black;
+	text-decoration: none;
 }
 
-#menu a.current-page:hover,
-#menu a:hover {
+.menu a.current-page:hover,
+.menu a:hover {
 	background-color: rgb(190,190,190);
 }
 
-#menu a.last-li {
+.menu a.last-li {
 	border-right-style: solid;
 }
 
-#menu a.first-li {
+.menu a.first-li {
 }
 
-#menu a.current-page {
+.menu a.current-page {
 	text-decoration: underline;
 }
 
