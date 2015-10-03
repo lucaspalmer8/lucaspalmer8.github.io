@@ -1,11 +1,11 @@
 body {
-	background-color: rgb(243,250,250);
+	background-color: rgb(220,216,189);
 }
 
 #page {
 	width: 900px;
 	margin: 0 auto;
-	background-color: rgb(243,250,250);
+	background-color: white;
 }
 
 #profile-picture {
