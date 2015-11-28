@@ -26,15 +26,19 @@ body {
 }
 
 .menu-wrapper {
-	width: 695px;
-	margin: auto;
+	/*width: 695px;
+	margin: auto;*/
+	width: 100%;
+	height: 30px;
+	position: fixed;
 }
 
 .menu {
 	z-index: 10;
 	width: 695px;
-	position: fixed;
-	top: -16px;
+	/*position: fixed;
+	top: -16px;*/
+	margin: auto;
 }
 
 .menu ol {
