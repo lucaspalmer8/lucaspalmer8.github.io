@@ -21,6 +21,10 @@ body {
 	border-color: white;
 }
 
+.menu-wrapper-wrapper {
+	background-color: rgb(230,230,230);
+}
+
 .menu-wrapper {
 	width: 695px;
 	margin: auto;
