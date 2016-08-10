@@ -1,13 +1,19 @@
-html { 
-	background: url(sailboat.jpg) no-repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
+html {
+	background-image: url(sailboat.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
 	background-size: cover;
 }
 
 #personal-details {
-	width: 600px;
-	height: 400px
-	margin: auto;
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+	text-align: center;
+	font-family: courier;
+	color: rgb(242, 242, 242);
+	background-color: rgba(163, 163, 163, .5);
+	border-radius: 25px;
 }
