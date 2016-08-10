@@ -1,7 +1,13 @@
 var main = function() {
 	var details = $("#personal-details");
 	details.hide();
-	details.slideDown(3000);
 };
+
+var load = function() {
+	var details = $("#personal-details");
+	details.slideDown(2000);
+};
+
+$(window).on("load", load)
 
 $(document).ready(main);
