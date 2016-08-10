@@ -6,7 +6,7 @@ var load = function() {
 	var details = $("#personal-details");
 	//details.removeClass("hide-details", {duration:2000});
 	//	details.addClass("show-details");
-	details.switchClass("hide-details", "show-details", 2000, "easeInOutQuad");
+	details.switchClass("hide-details", "show-details", 2000);
 };
 
 $(window).on("load", load)
