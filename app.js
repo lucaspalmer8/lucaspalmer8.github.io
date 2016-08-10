@@ -1,5 +1,7 @@
 var main = function() {
-	$("#personal-details").slideDown();
+	var details = $("#personal-details");
+	details.hide();
+	details.slideDown();
 };
 
 $(document).ready(main);
