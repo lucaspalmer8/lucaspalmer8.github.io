@@ -4,7 +4,9 @@ var main = function() {
 
 var load = function() {
 	var details = $("#personal-details");
-	details.switchClass("hide-details", "show-details", 2000, "easeInOutQuad");
+	details.removeClass("hide-details");
+	details.addClass("show-details");
+	//details.switchClass("hide-details", "show-details", 2000, "easeInOutQuad");
 };
 
 $(window).on("load", load)
