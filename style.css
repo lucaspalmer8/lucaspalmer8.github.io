@@ -29,3 +29,8 @@ html {
 	padding: 20px;
 	overflow:hidden
 }
+
+.icon {
+	width: 25px;
+	height: 25px;
+}
