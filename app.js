@@ -1,11 +1,10 @@
 var main = function() {
 	var details = $("#personal-details");
-	details.hide();
 };
 
 var load = function() {
 	var details = $("#personal-details");
-	details.slideDown(2000);
+	details.switchClass("details-hide", "details-show", 2000, "easeInOutQuad" );
 };
 
 $(window).on("load", load)
