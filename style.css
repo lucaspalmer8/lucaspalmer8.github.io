@@ -1,9 +1,10 @@
-html {
-	background-image: url("sailboat.jpg");
-	backgroud-size: cover;
+html { 
+    background: url(sailboat.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-
-
 
 body {
 }
