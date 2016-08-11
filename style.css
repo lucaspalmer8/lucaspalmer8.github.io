@@ -37,6 +37,14 @@ html {
 	position: fixed;
 	left: 10px;
 	top: 10px;
-	width: 35px;
-	height: 35px;
+	width: 65px;
+	height: 55px;
+}
+
+#menu-bar {
+	position: fixed:
+	left: 0px;
+	right: 0px;
+	width: 0px;
+	height: 100%;
 }
