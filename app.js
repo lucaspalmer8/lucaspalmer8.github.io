@@ -3,7 +3,7 @@ var main = function() {
 	var menuBar = $("#menu-bar");
 
 	menuIcon.click(function() {
-		$("#menu-bar").animate({left: "0px"}, 2000);
+		$("#menu-bar").animate({width: "100px"}, 2000);
 		alert( "Handler for .click() called." );
 	});
 	
