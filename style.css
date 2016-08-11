@@ -33,7 +33,6 @@ html {
 	margin-bottom: 30px; 
 }
 
-//width 0 so that the area for hovering is just it's content
 #menu {
 	position: fixed;
 	left: 10px;
