@@ -3,7 +3,7 @@ var main = function() {
 	var menuBar = $("#menu-bar");
 
 	menuIcon.onClick(function() {
-		menuBar.animate({width: "140px"}, 2000);
+		$("#menu-bar").animate({width: "140px"}, 2000);
 	});
 	
 };
