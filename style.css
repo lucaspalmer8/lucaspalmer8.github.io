@@ -47,4 +47,10 @@ html {
 	top: 0px;
 	width: 0px;
 	height: 100%;
+	margin-top: 35px;
+}
+
+#menu-bar a {
+	display: block;
+	overflow: hidden;
 }
