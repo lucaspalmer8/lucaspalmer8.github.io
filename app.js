@@ -4,10 +4,10 @@ var main = function() {
 
 	menuIcon.click(function() {
 		if (menuBar.width() == 0) {
-			menuBar.animate({width: "120px"}, 2000);
+			menuBar.animate({width: "150px"}, 1000);
 		}
 		else {
-			menuBar.animate({width: "0px"}, 2000);
+			menuBar.animate({width: "0px"}, 1000);
 		}
 	});
 	

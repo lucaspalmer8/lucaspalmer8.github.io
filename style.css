@@ -51,6 +51,8 @@ html {
 	margin-left: 20px;
 	color: rgb(242, 242, 242);
 	background-color: rgba(163, 163, 163, .5);
+	border-radius: 25px;
+        padding: 20px;
 }
 
 #menu-bar a {
@@ -60,4 +62,10 @@ html {
 	color: white;
 	font-family: courier bold;
 	font-size: 20px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#menu-bar:hover {
+	background-color: rgba(123, 123, 123, .5);
 }
