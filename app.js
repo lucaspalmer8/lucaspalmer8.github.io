@@ -2,9 +2,9 @@ var main = function() {
 	var menuIcon = $("#menu-icon");
 	var menuBar = $("#menu-bar");
 
-	//menuIcon.onClick(function() {
-	//	menuBar.animate({width: 140px}, 2000);
-	//});
+	menuIcon.onClick(function() {
+		menuBar.animate({width: "140px"}, 2000);
+	});
 	
 };
 
