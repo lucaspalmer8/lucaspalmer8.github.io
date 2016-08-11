@@ -37,7 +37,7 @@ html {
 	position: fixed;
 	left: 10px;
 	right: 10px;
-	width: 0px;
+	width: 65px; /* for hover state */
 }
 
 #menu-icon {
