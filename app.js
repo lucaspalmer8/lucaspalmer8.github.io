@@ -3,8 +3,12 @@ var main = function() {
 	var menuBar = $("#menu-bar");
 
 	menuIcon.click(function() {
-		$("#menu-bar").animate({width: "100px"}, 2000);
-		alert( "Handler for .click() called." );
+		if (menuBar.width() == 0) {
+			menuBar.animate({width: "120px"}, 2000);
+		}
+		else {
+			menuBar.animate({width: "0px"}, 2000);
+		}
 	});
 	
 };

@@ -47,10 +47,17 @@ html {
 	top: 0px;
 	width: 0px;
 	height: 100%;
-	margin-top: 35px;
+	margin-top: 75px;
+	margin-left: 20px;
+	color: rgb(242, 242, 242);
+	background-color: rgba(163, 163, 163, .5);
 }
 
 #menu-bar a {
 	display: block;
 	overflow: hidden;
+	padding: 10px;
+	color: white;
+	font-family: courier bold;
+	font-size: 20px;
 }
