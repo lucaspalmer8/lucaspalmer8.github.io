@@ -43,8 +43,8 @@ html {
 
 #menu-bar {
 	position: fixed:
-	left: 0px;
+	left: -100px;
 	right: 0px;
-	width: 0px;
+	width: 100px;
 	height: 100%;
 }
