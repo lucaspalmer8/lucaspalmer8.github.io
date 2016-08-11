@@ -20,9 +20,9 @@ var main = function() {
 		menuBar.animate({height: "0px"}, 500);
 	}
 
-	menuIcon.hover(hoverOver, function() {});
+	//menuIcon.hover(hoverOver, function() {});
 
-	menu.hover(function() {}, hoverOut);
+	menu.hover(hoverOver, hoverOut);
 	
 };
 
