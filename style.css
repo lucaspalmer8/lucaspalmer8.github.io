@@ -49,6 +49,7 @@ html {
 	height: 0px;
 	color: rgb(242, 242, 242);
 	text-align: center;
+	overflow: hidden;
 }
 
 #menu-bar a {

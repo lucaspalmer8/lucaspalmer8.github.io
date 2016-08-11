@@ -1,6 +1,7 @@
 var main = function() {
 	var menuIcon = $("#menu-icon");
 	var menuBar = $("#menu-bar");
+	var menu = $("#menu");
 
 	/*menuIcon.click(function() {
 		if (menuBar.width() == 0) {
@@ -19,7 +20,9 @@ var main = function() {
 		menuBar.animate({height: "0px"}, 500);
 	}
 
-	menuIcon.hover(hoverOver, hoverOut);
+	menuIcon.hover(hoverOver, function() {});
+
+	menu.hover(function() {}, hoverOut);
 	
 };
 
