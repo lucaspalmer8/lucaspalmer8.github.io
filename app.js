@@ -13,7 +13,7 @@ var main = function() {
 	});*/
 
 	var hoverOver = function() {
-		menuBar.animate({height: "200px"}, 500);
+		menuBar.animate({height: "220px"}, 500);
 	}
 	
 	var hoverOut = function() {
@@ -22,7 +22,7 @@ var main = function() {
 
 	menuIcon.hover(hoverOver, function() {});
 
-	menu.hover(function() {}, hoverOut);
+	menu.hover(function() {}, function() {});
 	
 };
 
