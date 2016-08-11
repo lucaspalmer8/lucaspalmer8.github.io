@@ -22,7 +22,7 @@ var main = function() {
 
 	//menuIcon.hover(hoverOver, function() {});
 
-	menu.hover(hoverOver, hoverOut);
+	menu.hover(hoverOver, function() {});
 	
 };
 
