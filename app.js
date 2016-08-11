@@ -2,8 +2,9 @@ var main = function() {
 	var menuIcon = $("#menu-icon");
 	var menuBar = $("#menu-bar");
 
-	menuIcon.onClick(function() {
+	menuIcon.click(function() {
 		$("#menu-bar").animate({width: "140px"}, 2000);
+		alert( "Handler for .click() called." );
 	});
 	
 };
