@@ -50,12 +50,11 @@ html {
 	margin-top: 75px;
 	margin-left: 20px;
 	color: rgb(242, 242, 242);
-	background-color: rgba(163, 163, 163, .5);
-	border-radius: 25px;
-        padding: 20px;
+	text-align: center;
 }
 
 #menu-bar a {
+	background-color: rgba(163, 163, 163, .5);
 	display: block;
 	overflow: hidden;
 	padding: 10px;
@@ -66,6 +65,16 @@ html {
 	padding-right: 0px;
 }
 
-#menu-bar:hover {
+#menu-bar a:hover {
 	background-color: rgba(123, 123, 123, .5);
+}
+
+.top-menu-item {
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+}
+
+.bottom-menu-item {
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
 }
