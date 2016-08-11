@@ -13,10 +13,13 @@ var main = function() {
 	});*/
 
 	var hoverOver = function() {
+		menuBar.stop();
 		menuBar.animate({height: "220px"}, 500);
 	}
 	
 	var hoverOut = function() {
+		//to avoid build up in animation queue
+		menuBar.stop();
 		menuBar.animate({height: "0px"}, 500);
 	}
 
