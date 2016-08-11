@@ -13,13 +13,6 @@ html {
         transform: translate(-50%, -50%);
 }
 
-.hide-details {
-	position: absolute;
-	top: 0%;
-	left: 50%;
-	transform: translate(-50%, -100%);
-}
-
 #personal-details {
 	display: none;
 	text-align: center;
@@ -30,7 +23,7 @@ html {
 	padding: 20px;
 }
 
-.icon {
+#personal-details .icon {
 	width: 25px;
 	height: 25px;
 }
@@ -38,4 +31,12 @@ html {
 #personal-details h4 {
 	margin-top: 0px;
 	margin-bottom: 30px; 
+}
+
+#menu-icon {
+	position: fixed;
+	left: 10px;
+	top: 10px;
+	width: 35px;
+	height: 35px;
 }
