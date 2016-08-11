@@ -33,22 +33,20 @@ html {
 	margin-bottom: 30px; 
 }
 
-#menu-icon {
+#menu {
 	position: fixed;
 	left: 10px;
-	top: 10px;
+	right: 10px;
+}
+
+#menu-icon {
 	width: 65px;
 	height: 55px;
 }
 
 #menu-bar {
-	position: fixed;
-	left: 0px;
-	top: 0px;
-	width: 0px;
-	height: 100%;
-	margin-top: 75px;
-	margin-left: 20px;
+	width: 150px;
+	height: 0px;
 	color: rgb(242, 242, 242);
 	text-align: center;
 }
