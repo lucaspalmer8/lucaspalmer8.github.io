@@ -21,6 +21,7 @@ html {
 }
 
 #personal-details {
+	display: none;
 	text-align: center;
 	font-family: courier;
 	color: rgb(242, 242, 242);

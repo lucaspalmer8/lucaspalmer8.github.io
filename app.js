@@ -1,6 +1,6 @@
 var main = function() {
 	var details = $("#personal-details");
-	details.hide();
+	//details.hide();
 };
 
 var load = function() {
