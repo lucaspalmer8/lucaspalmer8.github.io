@@ -1,20 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Lucas Palmer</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+	<title>Lucas Palmer</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<div class="menu-wrapper">
-    <div class="menu">
-        <ol><!--
-            --><li><a href="index.html" class="first-li">Home</a></li><!--
-            --><li><a href="education.html">Education</a></li><!--
-            --><li><a href="athletics.html" class="current-page">Athletics</a></li><!--
-            --><li><a href="work.html" class="last-li">Work</a></li><!--
-        --></ol>
-    </div>
-</div>
-</body>
-</html>
+	<div id="menu">
+		<img id="menu-icon" src="menu.png">
 
+		<div id="menu-bar">
+			<a href="index.html" class="top-menu-item">Home</a>
+			<a href="academics.html">Academics</a>
+			<a href="athletics.html" class="current-menu-item">Athletics</a>
+			<a href="activities.html">Activities</a>
+			<a href="coding.html" class="bottom-menu-item">Coding</a>
+		</div>
+	</div>
+
+	<div id="personal-details" class="show-details">
+		<h1>Lucas Palmer</h1>
+		<h2>University of Waterloo</h2>
+		<h3>Applied Mathematics, Computer Science, <br>and Computational Mathematics</h3>
+		<div>
+			<img class="icon" src="email.png">
+			<h4>lucaspalmer8@gmail.com</h4>
+		</div>
+		<div>
+                        <a href="https://www.linkedin.com/in/lucaspalmer8"><img class="icon" src="linkedin.png"></a>
+                        <h4>linkedin.com/in/lucaspalmer8</h4>
+                </div>
+		<div>
+                        <a href="https://www.github.com/lucaspalmer8"><img class="icon" src="github.png"></a>
+                        <h4>github.com/lucaspalmer8</h4>
+                </div>
+
+	</div>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+	<script src="app.js"></script>
+</body>
+</html> 

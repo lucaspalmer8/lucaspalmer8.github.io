@@ -1,9 +1,12 @@
 html {
-	background-image: url(optimized-sailboat.jpg);
+	background-image: url(lessOptimizedSailboat.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
 	background-size: cover;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
 }
 
 .show-details {
@@ -77,4 +80,8 @@ html {
 .bottom-menu-item {
 	border-bottom-left-radius: 25px;
 	border-bottom-right-radius: 25px;
+}
+
+.current-menu-item {
+	font-weight: bold;
 }
