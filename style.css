@@ -88,6 +88,6 @@ html {
 	border-bottom-right-radius: 25px;
 }
 
-#menu-bar a.current-menu-item {
-	font-weight: bold;
+.check-mark {
+	font-size: 30px;
 }
