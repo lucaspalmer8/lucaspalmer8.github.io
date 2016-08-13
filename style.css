@@ -16,10 +16,15 @@ html {
         transform: translate(-50%, -50%);
 }
 
+#personal-details h1,h2,h3,h4 {
+	font-weight: inherit;
+}
+
 #personal-details {
 	display: none;
 	text-align: center;
 	font-family: courier;
+	font-weight: bold;
 	color: rgb(242, 242, 242);
 	background-color: rgba(163, 163, 163, .5);
 	border-radius: 25px;
@@ -61,7 +66,8 @@ html {
 	display: block;
 	padding: 10px;
 	color: white;
-	font-family: courier bold;
+	font-family: courier;
+	font-weight: bold;
 	font-size: 20px;
 	padding-left: 0px;
 	padding-right: 0px;
@@ -83,5 +89,5 @@ html {
 }
 
 #menu-bar a.current-menu-item {
-	text-decoration: bold;
+	font-weight: bold;
 }
