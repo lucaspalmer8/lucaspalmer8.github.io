@@ -40,7 +40,7 @@ html {
 	position: fixed;
 	left: 10px;
 	right: 10px;
-	width: 65px; /* for hover state */
+	width: 65px; /* same as menu icon width for hover state */
 }
 
 #menu-icon {
@@ -59,13 +59,13 @@ html {
 #menu-bar a {
 	background-color: rgba(163, 163, 163, .5);
 	display: block;
-	overflow: hidden;
 	padding: 10px;
 	color: white;
 	font-family: courier bold;
 	font-size: 20px;
 	padding-left: 0px;
 	padding-right: 0px;
+	text-decoration: none;
 }
 
 #menu-bar a:hover {
