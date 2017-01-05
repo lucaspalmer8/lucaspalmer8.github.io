@@ -10,7 +10,7 @@ html {
 }
 
 .pdf-element {
-	margin: 0 auto;
+	margin: 50px auto;
 	width: 700px;
 }
 
@@ -19,23 +19,20 @@ html {
 	height: 900px;
 }
 
-
-
 .post {
-    text-align: center;
+    text-align: left;
     font-family: courier;
     font-weight: bold;
     color: rgb(242, 242, 242);
-    background-color: rgba(163, 163, 163, .5);
+    background-color: rgba(163, 163, 163, .8);
     border-radius: 25px;
     padding: 20px;
-	position: absolute;
-    top: 50%;
-    left: 50%;
-	transform: translate(-50%, -50%);
+	margin: 50px auto;
+	width: 700px;
 }
 
 .post h1,h2,h3,h4 {
+	text-align: center;
     font-weight: inherit;
 }
 
@@ -99,7 +96,7 @@ html {
 	font-family: courier;
 	font-weight: bold;
 	color: rgb(242, 242, 242);
-	background-color: rgba(163, 163, 163, .5);
+	background-color: rgba(163, 163, 163, .8);
 	border-radius: 25px;
 	padding: 20px;
 }
