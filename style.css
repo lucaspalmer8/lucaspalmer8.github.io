@@ -24,8 +24,8 @@ html {
     font-family: courier;
     font-weight: bold;
     color: rgb(242, 242, 242);
-    background-color: rgba(163, 163, 163, .7);
-    border-radius: 25px;
+    background-color: rgba(0, 0, 0, .6);
+	border-radius: 25px;
     padding: 20px;
 	margin: 50px auto;
 	width: 700px;
@@ -52,33 +52,6 @@ html {
     margin-bottom: 30px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .show-details {
         position: absolute;
         top: 50%;
@@ -96,7 +69,7 @@ html {
 	font-family: courier;
 	font-weight: bold;
 	color: rgb(242, 242, 242);
-	background-color: rgba(163, 163, 163, .7);
+	background-color: rgba(0, 0, 0, .6);
 	border-radius: 25px;
 	padding: 20px;
 }
@@ -139,7 +112,7 @@ html {
 }
 
 #menu-bar a {
-	background-color: rgba(163, 163, 163, .7);
+	background-color: rgba(0, 0, 0, .6);
 	display: block;
 	padding: 10px;
 	color: white;
@@ -153,7 +126,7 @@ html {
 }
 
 #menu-bar a:hover {
-	background-color: rgba(123, 123, 123, .7);
+	background-color: rgba(0, 0, 0, .9);
 }
 
 .top-menu-item {
