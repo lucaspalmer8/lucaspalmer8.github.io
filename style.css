@@ -14,7 +14,7 @@ html {
 }
 
 .pdf-element {
-	margin: 50px auto;
+	margin: 0px auto;
 	width: 700px;
 }
 
@@ -36,7 +36,7 @@ html {
 }
 
 .post-image {
-	margin: 50px auto;
+	margin: 20px auto;
 	width: 600px;
 	height: 400px;
 }
