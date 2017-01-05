@@ -3,18 +3,9 @@ var main = function() {
 	var menuBar = $("#menu-bar");
 	var menu = $("#menu");
 
-	/*menuIcon.click(function() {
-		if (menuBar.width() == 0) {
-			menuBar.animate({width: "150px"}, 1000);
-		}
-		else {
-			menuBar.animate({width: "0px"}, 1000);
-		}
-	});*/
-
 	var hoverOver = function() {
 		menuBar.stop();
-		menuBar.animate({height: "220px"}, 500);
+		menuBar.animate({height: "315px"}, 500); /* 45px for each menu item */
 	}
 	
 	var hoverOut = function() {
@@ -23,10 +14,7 @@ var main = function() {
 		menuBar.animate({height: "0px"}, 500);
 	}
 
-	//menuIcon.hover(hoverOver, function() {});
-
 	menu.hover(hoverOver, hoverOut);
-	
 };
 
 var load = function() {
