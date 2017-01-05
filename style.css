@@ -18,9 +18,10 @@ html {
 	width: 700px;
 }
 
-.embedded-pdf {
-	width: 700px; 
+.iframe-pdf {
+	width: 700px;
 	height: 900px;
+	border-style: none;
 }
 
 .post {
