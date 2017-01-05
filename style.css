@@ -9,6 +9,18 @@ html {
   	-o-background-size: cover;
 }
 
+.pdf-element {
+	margin: 0 auto;
+	width: 700px;
+}
+
+.embedded-pdf {
+	width: 700px; 
+	height: 900px;
+}
+
+
+
 .post {
     text-align: center;
     font-family: courier;
