@@ -24,7 +24,7 @@ html {
     font-family: courier;
     font-weight: bold;
     color: rgb(242, 242, 242);
-    background-color: rgba(163, 163, 163, .8);
+    background-color: rgba(163, 163, 163, .7);
     border-radius: 25px;
     padding: 20px;
 	margin: 50px auto;
@@ -96,7 +96,7 @@ html {
 	font-family: courier;
 	font-weight: bold;
 	color: rgb(242, 242, 242);
-	background-color: rgba(163, 163, 163, .8);
+	background-color: rgba(163, 163, 163, .7);
 	border-radius: 25px;
 	padding: 20px;
 }
@@ -139,7 +139,7 @@ html {
 }
 
 #menu-bar a {
-	background-color: rgba(163, 163, 163, .5);
+	background-color: rgba(163, 163, 163, .7);
 	display: block;
 	padding: 10px;
 	color: white;
@@ -153,7 +153,7 @@ html {
 }
 
 #menu-bar a:hover {
-	background-color: rgba(123, 123, 123, .5);
+	background-color: rgba(123, 123, 123, .7);
 }
 
 .top-menu-item {
