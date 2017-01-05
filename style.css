@@ -31,6 +31,17 @@ html {
 	width: 700px;
 }
 
+.post-image {
+	margin: 50px auto;
+	width: 600px;
+	height: 400px;
+}
+
+.post-image img {
+	width: 600px;
+	height: 400px;
+}
+
 .post h1,h2,h3,h4 {
 	text-align: center;
     font-weight: inherit;
