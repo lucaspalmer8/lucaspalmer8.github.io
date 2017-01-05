@@ -9,6 +9,67 @@ html {
   	-o-background-size: cover;
 }
 
+.post {
+    text-align: center;
+    font-family: courier;
+    font-weight: bold;
+    color: rgb(242, 242, 242);
+    background-color: rgba(163, 163, 163, .5);
+    border-radius: 25px;
+    padding: 20px;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.post h1,h2,h3,h4 {
+    font-weight: inherit;
+}
+
+.post a {
+	text-decoration: none;
+	font-weight: inherit;
+	color: inherit;
+}
+
+.post .icon {
+    width: 25px;
+    height: 25px;
+}
+
+.post h4 {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .show-details {
         position: absolute;
         top: 50%;
@@ -34,6 +95,12 @@ html {
 #personal-details .icon {
 	width: 25px;
 	height: 25px;
+}
+
+#personal-details a {
+    text-decoration: none;
+    font-weight: inherit;
+    color: inherit;
 }
 
 #personal-details h4 {
