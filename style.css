@@ -9,6 +9,10 @@ html {
   	-o-background-size: cover;
 }
 
+.image-180 {
+	transform: rotate(180deg); 
+}
+
 .pdf-element {
 	margin: 50px auto;
 	width: 700px;
