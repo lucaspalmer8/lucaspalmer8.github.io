@@ -84,6 +84,12 @@ html {
     height: 25px;
 }
 
+.post .text-icon {
+	width: 90px;
+	height: 20px;
+	margin: 0px;
+}
+
 .post h4 {
     margin-top: 0px;
     margin-bottom: 30px;
