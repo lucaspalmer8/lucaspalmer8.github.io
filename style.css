@@ -47,6 +47,17 @@ html {
 	height: 400px;
 }
 
+.post-image-vertical {
+    margin: 20px auto;
+    width: 400px;
+    height: 600px;
+}
+
+.post-image-vertical img {
+    width: 400px;
+    height: 600px;
+}
+
 .post h1,h2,h3,h4 {
 	text-align: center;
     font-weight: inherit;
