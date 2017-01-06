@@ -24,6 +24,16 @@ html {
 	border-style: none;
 }
 
+.video-element {
+	margin: 0px auto;
+	width: 600px;
+}
+
+.iframe-video {
+	width: 600px;
+	height: 400px;
+}
+
 .post {
     text-align: left;
     font-family: courier;
