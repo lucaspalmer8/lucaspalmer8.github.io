@@ -9,6 +9,22 @@ html {
   	-o-background-size: cover;
 }
 
+.sidefx-logo {
+	width: 220px;
+	height: 60px;
+}
+
+.bigroad-logo {
+    width: 220px;
+    height: 85px;
+}
+
+.toast-logo {
+    width: 220px;
+    height: 70px;
+}
+
+
 .image-180 {
 	transform: rotate(180deg); 
 }
