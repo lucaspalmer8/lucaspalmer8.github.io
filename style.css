@@ -154,11 +154,11 @@ html {
 	top: 10px;
 	left: 10px;
 	right: 10px;
-	width: 65px; /* same as menu icon width for hover state */
+	width: 75px;
 }
 
 #menu-icon {
-	width: 65px;
+	width: 75px;
 	height: 55px;
 }
 
