@@ -10,7 +10,7 @@ html {
 }
 
 .sidefx-logo {
-	width: 220px;
+	width: 240px;
 	height: 60px;
 }
 
@@ -75,14 +75,22 @@ html {
 
 .post-image-vertical {
     margin: 20px auto;
-    width: 400px;
-    height: 600px;
+    width: 600px;
+    height: 450px;
 }
 
-.post-image-vertical img {
-    width: 400px;
-    height: 600px;
+.post-image-vertical-left {
+    width: 290px;
+    height: 450px;
+	float: left;
 }
+
+.post-image-vertical-right {
+    width: 290px;
+    height: 450px;
+	float: right;
+}
+
 
 .post h1,h2,h3,h4 {
 	text-align: center;
