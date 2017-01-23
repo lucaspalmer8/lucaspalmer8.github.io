@@ -126,12 +126,16 @@ html {
         transform: translate(-50%, -50%);
 }
 
+#personal-details .profile-pic {
+    width: 175px;
+    height: 175px;
+}
+
 #personal-details h1,h2,h3,h4 {
 	font-weight: inherit;
 }
 
 #personal-details {
-	display: none;
 	text-align: center;
 	font-family: courier;
 	font-weight: bold;
