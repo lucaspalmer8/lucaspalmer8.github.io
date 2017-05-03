@@ -24,6 +24,10 @@ html {
     height: 70px;
 }
 
+.google-logo {
+    width: 220px;
+    height: 80px;
+}
 
 .image-180 {
 	transform: rotate(180deg); 
