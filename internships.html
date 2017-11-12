@@ -5,24 +5,48 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<div id="menu">
-		<img id="menu-icon" src="images/menu.png">
-
-		<div id="menu-bar">
-                <a href="index.html" class="top-menu-item">Home</a>
-                <a href="academics.html">Academics</a>
-                <a href="research.html">Research</a>
-                <a href="internships.html">Internships <span class="check-mark">&#x2713</span></a>
-                <a href="hackathons.html">Hackathons</a>
-                <a href="athletics.html">Athletics</a>
-                <a href="activities.html" class="bottom-menu-item">Activities</a>
-            </div>
+	<div>
+		<ul>
+  			<li><a href="index.html">Home</a></li>
+  			<li><a href="academics.html">Academics</a></li>
+  			<li><a href="research.html">Research</a></li>
+  			<li><a class="active" href="internships.html">Internships</a></li>
+			<li><a href="hackathons.html">Hackathons</a></li>
+  			<li><a href="athletics.html">Athletics</a></li>
+  			<li><a href="activities.html">Activities</a></li>
+		</ul>
 	</div>
+	
+	<div class="post first-post">
+        <h2>Software Engineering Intern, Fall 2017, Amazon</h2>
+        <h3><a href="https://www.amazon.com/" target="_blank"><img class="amazon-logo" src="images/amazonlogo.png"></a></h3>
+        <h3>Seattle, WA</h3>
+		
+		<p>
+			I was on the contextual carryover team within the Alexa machine learning platform.
+		</p>
+		
+		<p>
+			My first project was to write a Python script that updates model training sets to better match live
+			data in the NLU pipeline. Next, I built a Django-powered web tool that generates test cases for model testing and training.
+		</p>
+    </div>
 
 	<div class="post">
         <h2>Software Engineering Intern, Spring 2017, Google</h2>
         <h3><a href="https://www.google.com/" target="_blank"><img class="google-logo" src="images/googlelogo.png"></a></h3>
         <h3>Mountain View, CA</h3>
+		
+		<p>
+			I was on the personal actions team within the Google Assistant team.
+		</p>
+		
+		<p>
+			My first intern project was to create a query rewrite feature in Google Assistant Server with validation 
+			logic in Android and iOS frontends. Next, I used internal Google technologies to create a Google Assistant
+			dialog for modifying settings with voice commands.  Finally, I built the initial version of the iOS frontend
+			for an upcoming Google Assistant feature.
+		</p>
     </div>
 
 	<div class="post">
@@ -78,8 +102,6 @@
 		</p>
     </div>
 
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
 	<script src="app.js"></script>
 </body>
 </html> 

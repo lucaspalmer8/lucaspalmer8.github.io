@@ -20,12 +20,42 @@ html {
 	background-image: url(images/boat.jpg);
 }
 
-.sea {
-	background-image: url(images/sea.jpg);
-}
-
 .sailboat {
 	background-image: url(images/sailboat.jpg);
+}
+
+ul {
+	position: fixed;
+	top: 0;
+    left: 0;
+    right: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+	font-family: courier;
+	font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.active {
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .sidefx-logo {
@@ -46,6 +76,11 @@ html {
 .google-logo {
     width: 220px;
     height: 80px;
+}
+
+.amazon-logo {
+    width: 280px;
+    height: 90px;
 }
 
 .image-180 {
@@ -83,6 +118,10 @@ html {
     padding: 20px;
 	margin: 50px auto;
 	width: 715px;
+}
+
+.first-post {
+	margin-top: 100px;
 }
 
 .post-image {
@@ -183,53 +222,4 @@ html {
 #personal-details h4 {
 	margin-top: 0px;
 	margin-bottom: 30px; 
-}
-
-#menu {
-	position: fixed;
-	top: 10px;
-	left: 10px;
-	right: 10px;
-	width: 60px;
-}
-
-#menu-icon {
-	width: 60px;
-	height: 55px;
-}
-
-#menu-bar {
-	width: 185px;
-	height: 0px;
-	color: rgb(242, 242, 242);
-	text-align: center;
-	overflow: hidden;
-}
-
-#menu-bar a {
-	background-color: rgba(0, 0, 0, .6);
-	display: block;
-	padding: 10px;
-	color: white;
-	font-family: courier;
-	font-weight: bold;
-	font-size: 20px;
-	padding-left: 0px;
-	padding-right: 0px;
-	text-decoration: none;
-	height: 25px;
-}
-
-#menu-bar a:hover {
-	background-color: rgba(0, 0, 0, .9);
-}
-
-.top-menu-item {
-	border-top-left-radius: 25px;
-	border-top-right-radius: 25px;
-}
-
-.bottom-menu-item {
-	border-bottom-left-radius: 25px;
-	border-bottom-right-radius: 25px;
 }
