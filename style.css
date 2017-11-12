@@ -1,5 +1,4 @@
 html {
-	background-image: url(images/lessOptimizedSailboat.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
@@ -7,6 +6,26 @@ html {
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
+}
+
+.coast {
+	background-image: url(images/coast.jpg);
+}
+
+.bridge {
+	background-image: url(images/bridge.jpg);
+}
+
+.boat {
+	background-image: url(images/boat.jpg);
+}
+
+.sea {
+	background-image: url(images/sea.jpg);
+}
+
+.sailboat {
+	background-image: url(images/sailboat.jpg);
 }
 
 .sidefx-logo {
@@ -59,39 +78,39 @@ html {
     font-family: courier;
     font-weight: bold;
     color: rgb(242, 242, 242);
-    background-color: rgba(0, 0, 0, .6);
-	border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 15px;
     padding: 20px;
 	margin: 50px auto;
-	width: 700px;
+	width: 715px;
 }
 
 .post-image {
 	margin: 20px auto;
-	width: 600px;
+	width: 650px;
 	height: 400px;
 }
 
 .post-image img {
-	width: 600px;
+	width: 650px;
 	height: 400px;
 }
 
 .post-image-vertical {
     margin: 20px auto;
-    width: 600px;
-    height: 450px;
+    width: 650px;
+    height: 500px;
 }
 
 .post-image-vertical-left {
-    width: 290px;
-    height: 450px;
+    width: 315px;
+    height: 500px;
 	float: left;
 }
 
 .post-image-vertical-right {
-    width: 290px;
-    height: 450px;
+    width: 315px;
+    height: 500px;
 	float: right;
 }
 
@@ -144,9 +163,10 @@ html {
 	font-family: courier;
 	font-weight: bold;
 	color: rgb(242, 242, 242);
-	background-color: rgba(0, 0, 0, .6);
-	border-radius: 25px;
-	padding: 20px;
+	background-color: rgba(0, 0, 0, .8);
+	border-radius: 15px;
+	padding: 10px 20px;
+	width: 500px;
 }
 
 #personal-details .icon {
