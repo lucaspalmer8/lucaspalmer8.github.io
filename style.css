@@ -38,10 +38,8 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0.8);
-}
-
-li {
-    float: left;
+	display: flex;
+	justify-content: center;
 }
 
 li a {
@@ -52,6 +50,30 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+@media screen and (min-width: 1200px) {
+	li a {
+		font-size: 22px;
+	}
+}
+
+@media screen and (min-width: 950px) and (max-width: 1200px) {
+	li a {
+		font-size: 18px;
+	}
+}
+
+@media screen and (min-width: 750px) and (max-width: 950px) {
+	li a {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	li a {
+		font-size: 10px;
+	}
 }
 
 li a:hover:not(.active) {
@@ -185,13 +207,6 @@ li a:hover:not(.active) {
     margin-bottom: 30px;
 }
 
-.show-details {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-}
-
 #personal-details .profile-pic {
     width: 175px;
     height: 175px;
@@ -210,6 +225,11 @@ li a:hover:not(.active) {
 	border-radius: 15px;
 	padding: 10px 20px;
 	width: 500px;
+	height: 420px;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -198px);
 }
 
 #personal-details .icon {
