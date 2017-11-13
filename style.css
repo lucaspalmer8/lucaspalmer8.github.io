@@ -109,6 +109,11 @@ li a:hover:not(.active) {
     height: 90px;
 }
 
+.waterloo-logo {
+    width: 380px;
+    height: 120px;
+}
+
 .image-180 {
 	transform: rotate(180deg); 
 }
@@ -126,11 +131,11 @@ li a:hover:not(.active) {
 
 .video-element {
 	margin: 0px auto;
-	width: 600px;
+	width: 630px;
 }
 
 .iframe-video {
-	width: 600px;
+	width: 630px;
 	height: 400px;
 }
 
