@@ -25,7 +25,7 @@ html {
 }
 
 .sailboat {
-	background-image: url(images/sailboat.jpg);
+	background-image: url(images/sailboat-compressor.jpg);
 }
 
 ul {
@@ -37,7 +37,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.7);
 	display: flex;
 	justify-content: center;
 }
@@ -144,7 +144,7 @@ li a:hover:not(.active) {
     font-family: courier;
     font-weight: bold;
     color: rgb(242, 242, 242);
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.7);
 	border-radius: 15px;
     padding: 20px;
 	margin: 50px auto;
@@ -226,7 +226,7 @@ li a:hover:not(.active) {
 	font-family: courier;
 	font-weight: bold;
 	color: rgb(242, 242, 242);
-	background-color: rgba(0, 0, 0, .8);
+	background-color: rgba(0, 0, 0, 0.7);
 	border-radius: 15px;
 	padding: 10px 20px;
 	width: 500px;
