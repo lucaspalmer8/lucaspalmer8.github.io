@@ -1,4 +1,4 @@
-html {
+.background {
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
@@ -6,26 +6,45 @@ html {
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
-}
-
-.coast-with-rocks {
-	background-image: url(images/coastwithrocks.jpg);
-}
-
-.coast {
-	background-image: url(images/coast.jpg);
-}
-
-.bridge {
-	background-image: url(images/bridge.jpg);
-}
-
-.boat {
-	background-image: url(images/boat.jpg);
-}
-
-.sailboat {
 	background-image: url(images/sailboat-compressed.jpg);
+	animation: 1s ease 0s normal forwards 1 fadein;
+	-webkit-animation: 1s ease 0s normal forwards 1 fadein; /* Safari 4+ */
+  	-moz-animation: 1s ease 0s normal forwards 1 fadein; /* Fx 5+ */
+  	-o-animation: 1s ease 0s normal forwards 1 fadein; /* Opera 12+ */
+	min-height: 100%;
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+@-webkit-keyframes fadein {
+ 	0% { opacity:0; }
+    33% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-moz-keyframes fadein {
+	0% { opacity:0; }
+    33% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-o-keyframes fadein {
+	0% { opacity:0; }
+    33% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@keyframes fadein {
+	0% { opacity:0; }
+    33% { opacity:0; }
+    100% { opacity:1; }
+}
+
+body, html {
+	background-color: black;
+	height: 100%;
+  	margin: 0px;
+  	padding: 0px;
 }
 
 ul {
@@ -152,7 +171,11 @@ li a:hover:not(.active) {
 }
 
 .first-post {
-	margin-top: 100px;
+	margin-top: 0px;
+}
+
+.last-post {
+	margin-bottom: 0px;
 }
 
 .post-image {
