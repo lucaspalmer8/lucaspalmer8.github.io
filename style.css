@@ -225,6 +225,11 @@ li a:hover:not(.active) {
     height: 25px;
 }
 
+.post .small-icon {
+    width: 18px;
+    height: 18px;
+}
+
 .post .text-icon {
 	width: 90px;
 	height: 20px;
